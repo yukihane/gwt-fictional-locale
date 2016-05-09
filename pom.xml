@@ -72,6 +72,7 @@
         <executions>
           <execution>
             <goals>
+              <goal>i18n</goal>
               <goal>compile</goal>
               <goal>test</goal>
               <goal>generateAsync</goal>
@@ -85,6 +86,9 @@
           <modules>
             <module>com.github.yukihane.gwt.gwt_fictional_locale.Main</module>
           </modules>
+          <i18nConstantsBundles>
+            <i18nConstantsBundle>com.github.yukihane.gwt.gwt_fictional_locale.client.Messages</i18nConstantsBundle>
+          </i18nConstantsBundles>
         </configuration>
       </plugin>
     </plugins>
