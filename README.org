@@ -1,0 +1,15 @@
+* What's this
+
+Sample implementation for [[http://stackoverflow.com/questions/7205643/how-to-implement-custom-internationalization-with-gwt][How to implement custom internationalization with gwt? - Stack Overflow]] .
+
+* Execution
+
+mvn clean process-classes war:exploded gwt:run
+
+* Access
+
+ - [[http://127.0.0.1:8888/Main.html]]
+ - [[http://127.0.0.1:8888/Main.html?locale=en]]
+ - [[http://127.0.0.1:8888/Main.html?locale=fr]]
+ - [[http://127.0.0.1:8888/Main.html?locale=ja]]
+ - [[http://127.0.0.1:8888/Main.html?locale=ja_JP_kansai]]
