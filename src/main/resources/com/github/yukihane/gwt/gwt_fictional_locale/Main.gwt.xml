@@ -13,9 +13,10 @@
   <!-- Other module inherits                                      -->
   <inherits name="com.google.gwt.i18n.I18N" />
   <extend-property name="locale" values="ja" />
+  <extend-property name="locale" values="ja_JP_kansai" />
   <extend-property name="locale" values="fr" />
   <extend-property name="locale" values="en" />
-  <set-property name="locale" value="ja,en,fr" />
+  <set-property name="locale" value="ja,en,fr,ja_JP_kansai" />
   <set-property-fallback name="locale" value="en" />
 
   <!-- Specify the app entry point class.                         -->
